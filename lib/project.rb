@@ -25,5 +25,4 @@ class Project
       @backers << backer
       
     end
-    backer = Backer.new(title)
-end  
+  end  
