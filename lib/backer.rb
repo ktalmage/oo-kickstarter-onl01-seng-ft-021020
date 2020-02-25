@@ -16,6 +16,7 @@ class Backer
     
     def save
       @@all << self
+      
     end
   
   def back_project(project)
