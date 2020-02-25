@@ -6,5 +6,9 @@ class Project
     def initialize(title)
       @title = title
       @backers = []
-    end  
+    end 
+    
+    self.add_backer(backer)
+    
+    
 end  
