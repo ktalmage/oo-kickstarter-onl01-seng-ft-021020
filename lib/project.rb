@@ -9,6 +9,7 @@ class Project
     def initialize(title)
       @title = title
       @backers = []
+      @backed_projects = backed_projects
       save
     end 
     
