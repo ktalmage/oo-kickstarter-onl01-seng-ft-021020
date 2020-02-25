@@ -24,6 +24,4 @@ class Backer
     @backed_projects << project
     
   end
-  project = Project.new(name)
-  
 end
