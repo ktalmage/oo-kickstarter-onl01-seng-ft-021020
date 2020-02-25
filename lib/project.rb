@@ -1,3 +1,4 @@
+require 'pry'
 class Project
   
   attr_accessor 
@@ -22,6 +23,6 @@ class Project
     
     def add_backer(backer)
       @backers << backer
-      
+      binding.pry
     end
 end  
