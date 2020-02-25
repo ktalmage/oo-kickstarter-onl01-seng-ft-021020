@@ -25,4 +25,6 @@ class Project
       @backers << backer
       
     end
+    
+    backers.project = backer
   end  
