@@ -1,7 +1,7 @@
 require 'pry'
 class Project
   
-  attr_accessor 
+  attr_accessor :backed_project
   attr_reader :title, :backers
   
   @@all = []
@@ -9,7 +9,6 @@ class Project
     def initialize(title)
       @title = title
       @backers = []
-      @backed_projects = backed_projects
       save
     end 
     
