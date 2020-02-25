@@ -26,5 +26,5 @@ class Project
       
     end
     
-    backers.project = backer
+    
   end  
