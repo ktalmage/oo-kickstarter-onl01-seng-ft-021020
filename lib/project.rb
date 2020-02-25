@@ -17,7 +17,7 @@ class Project
     
     def save
       @@all << self
-       @backers << backer
+      
     end
     
     def add_backer(backer)
